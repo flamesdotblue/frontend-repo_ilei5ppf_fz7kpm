@@ -3,10 +3,9 @@ import { Sun, Moon, Menu, X } from 'lucide-react';
 
 const links = [
   { href: '#home', label: 'Home' },
-  { href: '#about', label: 'About' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#feed', label: 'Feed' },
+  { href: '#profiles', label: 'Profiles' },
+  { href: '#notifications', label: 'Notifications' },
 ];
 
 export default function Navbar() {
@@ -34,8 +33,8 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/40 dark:bg-black/30 border-b border-black/5 dark:border-white/10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
         <a href="#home" className="font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-fuchsia-500 to-emerald-400">/</span>
-          <span className="ml-1">Portfolio</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-fuchsia-500 to-emerald-400">@</span>
+          <span className="ml-1">SocialX</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-6">
